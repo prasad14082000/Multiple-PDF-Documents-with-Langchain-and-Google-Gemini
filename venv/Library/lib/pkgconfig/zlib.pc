@@ -1,0 +1,13 @@
+prefix=C:/GITHUB CODES/Multiple-PDF-Documents-with-Langchain-and-Google-Gemini/venv/Library
+exec_prefix=C:/GITHUB CODES/Multiple-PDF-Documents-with-Langchain-and-Google-Gemini/venv/Library
+libdir=C:/GITHUB CODES/Multiple-PDF-Documents-with-Langchain-and-Google-Gemini/venv/Library/lib
+sharedlibdir=C:/GITHUB CODES/Multiple-PDF-Documents-with-Langchain-and-Google-Gemini/venv/Library/lib
+includedir=C:/GITHUB CODES/Multiple-PDF-Documents-with-Langchain-and-Google-Gemini/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
